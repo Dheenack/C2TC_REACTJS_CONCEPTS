@@ -1,5 +1,5 @@
-import "./App.module.css";
-import s from'./App.css';
+import s from "./App.module.css";
+import './App.css';
 
 
 
@@ -23,7 +23,7 @@ function App() {
         <p className="external">This is styled using External CSS</p>
 
         {/* CSS Module */}
-        <p className={s.}>This is styled using CSS Module</p>
+        <p className={s.moduleStyle}>This is styled using CSS Module</p>
       </header>
     </div>
   );
